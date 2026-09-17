@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RAJPUTSURESHOT</title>
+
+<title>RAJPUT SURESHOT</title>
+
 <meta name="theme-color" content="#080808">
 
-<!-- META PIXEL START -->
+<!-- ================= META PIXEL ================= -->
 <script>
 !function(f,b,e,v,n,t,s)
 {
@@ -16,35 +19,32 @@
         n.callMethod.apply(n,arguments) :
         n.queue.push(arguments)
     };
+
     if(!f._fbq)f._fbq=n;
+
     n.push=n;
     n.loaded=!0;
     n.version='2.0';
     n.queue=[];
+
     t=b.createElement(e);
     t.async=!0;
     t.src=v;
+
     s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)
 }
-(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '1610293897487254');
 fbq('track', 'PageView');
 </script>
-
-<noscript>
-<img
-    height="1"
-    width="1"
-    style="display:none"
-    src="https://www.facebook.com/tr?id=1610293897487254&ev=PageView&noscript=1"
-/>
-</noscript>
-<!-- META PIXEL END -->
+<!-- =============== END META PIXEL =============== -->
 
 
 <style>
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -241,6 +241,83 @@ h1 {
 }
 
 
+/* FEATURES */
+
+.section-title {
+    text-align: center;
+
+    color: #f0c76b;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+    margin: 23px 0 12px;
+}
+
+.features {
+    display: grid;
+
+    gap: 9px;
+}
+
+.feature {
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    padding: 12px 13px;
+
+    border-radius: 13px;
+
+    background: #0c0c0c;
+
+    border: 1px solid rgba(224,177,70,.18);
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+
+    flex-shrink: 0;
+
+    border-radius: 10px;
+
+    display: grid;
+
+    place-items: center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #e8bd60,
+            #8f5d14
+        );
+
+    color: #090909;
+
+    font-weight: 900;
+}
+
+.feature b {
+    font-size: 13px;
+}
+
+.feature span {
+    display: block;
+
+    color: #999;
+
+    font-size: 10px;
+
+    margin-top: 2px;
+}
+
+
 /* MEMBER BUTTONS */
 
 .member-buttons {
@@ -302,7 +379,7 @@ h1 {
 }
 
 
-/* PROMOTION SECTION */
+/* PROMOTION */
 
 .promo {
     margin-top: 30px;
@@ -349,6 +426,9 @@ h1 {
     border: 1px solid #76551c;
 }
 
+
+/* FOOTER */
+
 .footer {
     text-align: center;
 
@@ -383,21 +463,38 @@ h1 {
         font-size: 12px;
     }
 }
+
 </style>
 </head>
 
 
 <body>
 
+<!-- META PIXEL NOSCRIPT -->
+<noscript>
+<img
+    height="1"
+    width="1"
+    style="display:none"
+    src="https://www.facebook.com/tr?id=1610293897487254&ev=PageView&noscript=1"
+/>
+</noscript>
+
+
 <div class="wrap">
+
 
     <!-- HEADER -->
 
     <header class="header">
 
-        <div class="brand"></div>
+        <div class="brand">
+            RAJPUT
+        </div>
 
-        <div class="crown"></div>
+        <div class="crown">
+            👑
+        </div>
 
     </header>
 
@@ -405,6 +502,7 @@ h1 {
     <!-- MAIN CARD -->
 
     <main class="card">
+
 
         <!-- HERO -->
 
@@ -443,11 +541,91 @@ h1 {
         </section>
 
 
-        <!-- MEMBER SECTION -->
+        <!-- FEATURES -->
+
+        <div class="section-title">
+            WHY JOIN RAJPUT?
+        </div>
+
+
+        <section class="features">
+
+
+            <div class="feature">
+
+                <div class="icon">
+                    ✓
+                </div>
+
+                <div>
+
+                    <b>
+                        Daily Channel Updates
+                    </b>
+
+                    <span>
+                        Stay updated through the official channel.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="icon">
+                    ⚡
+                </div>
+
+                <div>
+
+                    <b>
+                        Quick Notifications
+                    </b>
+
+                    <span>
+                        Get new posts and updates in one place.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="icon">
+                    👑
+                </div>
+
+                <div>
+
+                    <b>
+                        VIP Community
+                    </b>
+
+                    <span>
+                        Join the Rajput community on Telegram.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- MEMBER -->
+
+        <div class="section-title">
+            JOIN AS A MEMBER
+        </div>
+
 
         <div class="member-buttons">
 
-            <!-- MEMBER BUTTON 1 -->
 
             <a
                 class="btn member"
@@ -459,8 +637,6 @@ h1 {
             </a>
 
 
-            <!-- MEMBER BUTTON 2 -->
-
             <a
                 class="btn member"
                 href="https://t.me/+eCzGym29fms2M2I1"
@@ -469,11 +645,12 @@ h1 {
             >
                 👑 JOIN TELEGRAM NOW
             </a>
+
 
         </div>
 
 
-        <!-- PROMOTION - BOTTOM -->
+        <!-- PROMOTION -->
 
         <section class="promo">
 
@@ -485,6 +662,7 @@ h1 {
                 For channel promotion, advertising or business
                 enquiries, contact us here.
             </p>
+
 
             <a
                 class="btn"
@@ -503,6 +681,7 @@ h1 {
         <div class="footer">
             RAJPUT SURESHOT • OFFICIAL CHANNEL
         </div>
+
 
     </main>
 
